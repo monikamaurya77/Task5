@@ -1,0 +1,73 @@
+
+.itemWrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgb(98, 97, 97);
+  border: 1px solid white;
+  height: 40px;
+  text-decoration:double;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+.itemList{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  box-shadow: 0 10px 10px black;
+  align-items: center;
+  margin-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: lightblue;
+  
+}
+
+.dltbtn{
+  border: none;
+  background-color: #E3E5E0;
+ 
+}
+
+.inputBox{
+  width: 300px;
+  box-shadow: 0 5px 5px 1px rgb(159, 156, 156);
+  border: 0.5px solid grey;
+  height: 32px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, rgba(129, 126, 126, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(140, 131, 131, 0.18);
+  font-size: larger;
+  
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0px 11px 10px rgba(153, 151, 146, 0.8);
+  text-decoration:underline;
+  text-align: center;
+  font-size: 2rem;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color:aliceblue;
+}
+
+.edit{
+  display: none;
+  width: inherit;
+  margin-top: 55px;
+}
